@@ -1,0 +1,11 @@
+dist
+node_modules
+*.log*
+.nitro
+.mcfly
+.cache
+.output
+.env
+*~
+*swp
+*swo

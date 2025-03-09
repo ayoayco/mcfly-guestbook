@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<my-head>
+  <title>McFly: Back to the Basics. Into the Future.</title>
+  <script server:setup>
+    const project = {
+      name: "Guestbook",
+      description: "...drop some nice messages :)"
+    };
+  </script>
+</my-head>
+
+<body>
+  <awesome-header>
+    <span>{{ project.name }}</span>
+    <span slot="description">{{ project.description }}</span>
+  </awesome-header>
+  <main>
+    ... content goes here
+  </main>
+  <my-footer>
+    <small>
+      {{ project.description }}
+    </small>
+  </my-footer>
+</body>
+
+</html>
